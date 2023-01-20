@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 8px;
+    background-color: #CCCCCC;
+}
+
+ul.top_navigation_list {
+    list-style-type: none;
+    background-color: #444;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
