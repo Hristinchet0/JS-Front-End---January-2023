@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-255');
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+th {
+    background-color: grey;
+    width: 400px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+blockquote {
+    border-left: rgb(221,221,221);
+    font-style: italic;
+}
