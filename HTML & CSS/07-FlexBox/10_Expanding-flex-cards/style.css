@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 238, 238);
+}
+
+
+.container {
+    max-width: 60%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+
+}
+
+img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.media {
+    width: 25em;
+    height: 25em;
+    flex: 0 1 12%;
+    position: relative;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 0.75em 0.5em rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.media.hover {
+    flex: 0 1 55%;
+}
+
+.mh {
+    width: 90%;
+    height: 100%;
+}
+
+
+
