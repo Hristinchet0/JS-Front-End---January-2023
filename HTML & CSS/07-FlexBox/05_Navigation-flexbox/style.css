@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    flex: 1 1 65%;
+    width: 65%;
+    text-decoration: none;
+    padding-bottom: 0.9em;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    flex: 0 0 35%;
+    list-style: none;
+    margin-left: auto;
+}
+
+ul a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main {
+    padding-top: 0.9em;
+}
