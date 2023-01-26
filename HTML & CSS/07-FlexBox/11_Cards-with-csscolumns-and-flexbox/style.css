@@ -1,0 +1,61 @@
+body{
+    margin: 40px 60px;
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+}
+
+.cards-layout{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-bottom: 33px;
+}
+
+.card{
+    background: white;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 12px -1px grey;
+    
+    margin: 10px;
+}
+
+.card img{
+    
+    width: 100%;
+}
+
+.card-content,
+.card footer{
+   padding: 12px;
+}
+
+.card footer{
+    border-top: 1px solid grey;
+}
+
+.masonry .card{
+    display: inline-block;
+}
+
+.masonry section{
+    column-count: 3;
+}
+
+.flex section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .card{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex .card .card-content{
+    flex-grow: 1;
+}
