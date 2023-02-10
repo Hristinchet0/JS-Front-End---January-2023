@@ -1,0 +1,91 @@
+@import "https://use.fontawesome.com/releases/v6.1.2/css/all.css";
+
+html {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form,
+.form-title {
+    background-color: #F8F8F8;
+    border: 1px solid black;
+}
+
+form {
+    position: relative;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 14px 3px #878181;
+}
+
+.form-title {
+    position: absolute;
+    top: -20px;
+    margin: 0;
+    padding: 10px;
+    min-width: 120px;
+    border-radius: 4px;
+    left: -1px;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+
+}
+
+form label span {
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 8px;
+    margin-top: 20px;
+}
+
+label i {
+    position: relative;
+    left: 23px;
+}
+
+label input {
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 6px 12px 6px 32px;
+    width: 100%;
+}
+
+@media all and (max-width: 600px) {
+    form {
+        max-width: 90%;
+        margin: 80px 20px;
+    }
+
+    form label {
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    form span {
+        flex-basis: 100%;
+    }
+
+    form label i {
+        position: absolute;
+        left: 8px;
+        top: 24px;
+    }
+}
