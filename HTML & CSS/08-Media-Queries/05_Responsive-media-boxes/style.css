@@ -1,0 +1,52 @@
+body {
+    padding: 3em;
+    background-color: rgb(238, 238, 238);
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 10px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 10px;
+}
+
+section {
+    width: 70%;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em black;
+    
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+button {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(0, 153, 0);
+    border-radius: 0.2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+   
+}
+
+.card-info {
+    padding: 1em;
+}
