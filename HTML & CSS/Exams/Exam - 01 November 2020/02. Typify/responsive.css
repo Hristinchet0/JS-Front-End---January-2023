@@ -1,0 +1,35 @@
+@media all and (max-width: 600px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h2 {
+        font-size: 1.4em;
+        margin: 0px auto 2em;
+        padding: 1.1em;
+        position: relative;
+        width: 90%;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features article {
+        width: 95%;
+    }
+}

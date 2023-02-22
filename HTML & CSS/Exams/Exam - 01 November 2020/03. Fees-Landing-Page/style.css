@@ -1,0 +1,245 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(75, 75, 75);
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+h1,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 5px 60px;
+    margin: 8px;
+}
+
+header img {
+    max-height: 100%;
+}
+
+header ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #54546d;
+    padding: 20px 6px;
+    display: block;
+}
+
+.taxes-holder {
+    max-width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #54546d 59%, #fff 50%);
+    padding-top: 50px;
+}
+
+.taxes-holder ul li {
+    width: 25%;
+}
+
+.calculator-icon {
+    position: absolute;
+    top: 38px;
+    left: -69px;
+}
+
+.taxes-holder h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.taxes-holder p {
+    font-size: 13px;
+}
+
+.taxes-holder ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 100%;
+    /* max-width: If the content is larger than the maximum width, 
+    it will automatically change the height of the element. */
+    margin-bottom: 96px;
+    position: relative;
+}
+
+.taxes-holder li {
+    background-color: #fff;
+    width: 400px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .12), 0 1px 8px 0 rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+.design {
+    background: linear-gradient(to left, #4cd781, #029a3c);
+}
+
+.fundamental_price {
+    background: linear-gradient(90deg, rgba(78, 107, 136, 1) 0%, rgba(91, 131, 171, 1) 50%, rgba(102, 153, 204, 1) 100%);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 10px;
+    height: 100px;
+    border-radius: 0 0 8px 8px;
+}
+
+.fundamental_price div  {
+    padding-top: 25px;
+}
+
+.bank-info h1 {
+    margin-bottom: 15px;
+}
+
+.bank-info p {
+    margin-bottom: 15px;
+}
+
+
+.professional {
+    background: linear-gradient(to left, #8d7ee2, #4a37a5);
+}
+
+.price {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 10px;
+    height: 100px;
+    border-radius: 0 0 8px 8px;
+}
+
+
+.taxes-holder span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price div {
+    padding-top: 20px;
+}
+
+.tax-info-holder {
+    padding: 10px;
+    height: 200px;
+}
+
+.tax-info-holder h3 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.table-holder p {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+
+.taxes-holder button {
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 40px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #9a5dc6;
+    padding: 14px 32px;
+    border: none;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+}
+
+.table-holder {
+    padding: 0 200px;
+    margin-bottom: 96px;
+    max-width: 100%;
+}
+
+.fa-check {
+    color: rgb(14, 186, 14);
+}
+
+.fa-times {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+table tr {
+    padding: 10px;
+    height: 50px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+table tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+table tr td {
+    min-width: 150px;
+    text-align: center;
+}
+
+table tr td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.bank-holder {
+    padding: 0 100px;
+    margin-bottom: 96px;
+    max-width: 100%;
+    display: flex;
+}
+
+.img-holder {
+    padding-top: 50px;
+}
+
+.bank-info {
+    padding-right: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #54546D;
+    color: #888298;
+}
