@@ -1,0 +1,235 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    background-color: #F0E4E4;
+    
+}
+
+.header-bar {
+    display: flex;
+    background-color: #F43C16;
+    align-items: baseline;
+    color: white;
+    width: 100%;
+}
+
+.header-bar ul {
+    display: flex;
+    flex: 0 0 35%;
+    list-style: none;
+    margin-left: auto;
+    font-size: 15px;
+}
+
+.header-bar ul a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.my-account-buttont-img {
+    display: flex;
+    align-items: inherit;
+    margin: auto;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+.search-container {
+    display: flex;
+    margin: 20px;
+}
+
+.search-container form {
+    display: flex;
+    margin: 5px;
+}
+.search-container input {
+    width: 200px;
+    height: 28px;
+    border: 1px solid #B6AFAF;
+}
+
+.search-container button {
+    width: 60px;
+    border: none;
+    background: #B6AFAF;
+}
+
+.page-photos {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 24px 27px 47px;
+}
+
+.page-photos img {
+    width: 88%;
+}
+
+.photo-text p {
+    text-align: center;
+    color: #818080;
+}
+
+.text-button-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-button-image img {
+    width: 90%;
+}
+
+.text-and-button {
+    width: 100%;
+    text-align: inherit;
+    margin: 46px;
+}
+
+.text-and-button h1 {
+    color: #F43C16;
+}
+
+.text-and-button p {
+    font-size: 10px;
+    color: #818080;
+}
+
+.text-button {
+    height: 38px;
+    background: #F43C16;
+    color: white;
+    width: 86px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-bottom {
+    display: flex;
+    flex-direction: row;
+    background: #CAC3C3;
+    width: 97%;
+    padding: 15px;
+}
+
+.main-bottom article img {
+    width: 24%;
+}
+
+.main-bottom article {
+    font-size: 16px;
+    text-align: center;
+}
+
+.free-shippnig img {
+    width: 57%;
+    margin: 0px 0px 0px 0px;
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    color: #CAC3C3;
+    width: 97%;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.footer-about-us-ul a {
+    color: #CAC3C3;
+}
+
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-ul li {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.footer-contact-ul a{
+    color: #CAC3C3;
+}
+
+.footer-btn-call {
+    font-size: 35px;
+    background: #CAC3C3;
+    width: 117px;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 12px;
+    border: none;
+    color: #5B464F;
+}
+
+.footer-contact-ul {
+    margin-right: 30px;
+    margin-left: 22px;
+}
+
+.footer-about-us-ul {
+    display: flex;
+    align-items: baseline;
+    color: white;
+    width: 100%;
+    list-style: none;
+    font-size: 28px;
+    margin-top: 23px;
+    margin-left: 35px;
+}
+
+.footer-about-us-ul li {
+    display: table-cell;
+}
+
+.footer-about-us-ul  li a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-worktime {
+    margin-left: 15px;
+    margin-right: 23px;
+}
+    
+
+
+
+
+
+
+
+
+
+
