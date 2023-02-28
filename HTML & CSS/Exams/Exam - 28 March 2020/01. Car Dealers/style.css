@@ -1,0 +1,62 @@
+/*Lato is not avaiable for cyrillic, i will use another font*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.auto {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.auto-header {
+    text-align: center;
+}
+
+.auto-header-title {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+.auto-content-text,
+.auto-content-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.auto-content-text {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.auto-content-text p {
+    color: grey;
+    margin-bottom: 45px;
+}
+
+.auto-content-img {
+    width: 40%;
+}
+
+.auto-content-image img {
+    width: 100%;
+}
+
+.auto-content-benefit-img,
+.auto-content-benefit-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.auto-content-benefit-text p {
+    margin: 0;
+}
+
+.auto-content-benefit-text h5 {
+    margin: 0 0 5px 0;
+    color: darkslategrey;
+}
