@@ -1,0 +1,210 @@
+@import "https://use.fontawesome.com/releases/v6.1.2/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@0;1&display=swap');
+
+body {
+    font-family: 'Gelasio', serif;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #E6E3DE;
+    color: #544935;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.login-button-search {
+    display: flex;
+    align-items: center;
+}
+
+.login-button-search li {
+    margin: 20px;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+.login-button-search li button {
+    background: #544935;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.login-button-search li i {
+    color: black;
+}
+
+/*---------------------------------------------*/
+
+.main-and-footer {
+    background: url(./Media/background.jpg);
+
+}
+
+.main-section-craving {
+    background: url(./Media/craving.jpg);
+    height: 500px;
+}
+
+.main-section-craving-search {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.main-section-craving-search h1 {
+    font-size: 3em;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.main-section-craving-search p {
+    background-color: #e6e3debe;
+    padding: 7px;
+
+}
+
+.main-section-craving-search p input {
+    border: none;
+    background: transparent;
+}
+
+.main-section-craving-search p i {
+    color: #878181;
+}
+
+/*-----------------------------------------------------*/
+
+
+.main-section-party,
+.main-section-cookies {
+    width: 59%;
+    display: flex;
+    background: #E6E3DE;
+    margin: 50px auto;
+
+}
+
+.main-section-party-image,
+.main-section-cookies-image {
+    width: 600px;
+    height: auto;
+}
+
+.main-section-party-image img,
+.main-section-cookies-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-section-party-info,
+.main-section-cookies-info {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.main-section-party-info h1,
+.main-section-cookies-info h1 {
+    font-size: 2em;
+}
+
+.main-section-party-info h3,
+.main-section-cookies-info h3 {
+    font-size: 13px;
+}
+
+.main-section-party-info button {
+    background: #544935;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/*----------------------------------------------------*/
+
+.main-section-toolbox {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-section-toolbox-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main-section-toolbox-images li {
+    width: 200px;
+    height: 250px;
+    background: rgb(230, 227, 222, 0.685);
+}
+
+.main-section-toolbox-images li img {
+    width: 100%;
+    height: 80%;
+}
+
+.main-section-toolbox-heading {
+    background: rgb(230, 227, 222, 0.685);
+    display: inline;
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+
+.red-button {
+    border: none;
+    background: #D64E38;
+    color: white;
+    padding: 10px 50px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+/*-----------------------------------------*/
+
+footer {
+    background: #e6e3debe;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+footer ul {
+    display: flex;
+    width: 385px;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+footer ul li {
+    border-right: 1px solid grey;
+    height: 20px;
+    padding: 0 20px;
+}
+
+footer ul li:last-child {
+    border: none;
+}

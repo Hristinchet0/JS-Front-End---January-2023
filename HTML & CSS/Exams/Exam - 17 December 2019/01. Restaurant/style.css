@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,900&family=Poppins&display=swap');
+
+body {
+    background: #F5D3AD;
+    font-family: Poppins, sans-serif;
+}
+
+main {
+    display: flex;
+    background: #111111;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.main-section-image {
+    width: 600px;
+    height: 500px;
+}
+
+.main-section-image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.main-section-booking form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.main-section-booking {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section-booking form input {
+    width: 300px;
+    display: block;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    margin: 18px 0;
+}
+
+.main-section-booking form h3 {
+    margin-left: 13px;
+}
+
+.button button {
+    background-color: #F5D3AD;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+.button button:hover {
+    cursor: pointer;
+}
