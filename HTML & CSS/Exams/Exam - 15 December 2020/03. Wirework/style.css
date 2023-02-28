@@ -1,0 +1,201 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* HEADER PART */
+
+.section-wrapper {
+    max-width: 1350px;
+    margin: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px 12px;
+    margin: 0 1px;
+    background-color: #ECECEC;
+    font-size: 13px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #382929;
+}
+
+nav ul li:first-child {
+    background-color: #E24E2A;
+}
+
+nav ul li:first-child a {
+    color: white;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.header-image img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.header-logo {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.header-logo::after {
+    content: '';
+    width: 1px;
+    height: 39px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    display: inline-flex;
+    background-color: gray;
+}
+
+.header-logo-subtitle {
+    margin-top: 39px;
+}
+
+/* MAIN PART */
+
+.about {
+    background-color: #E24E2A;
+}
+
+.about-text {
+    padding: 80px;
+    margin: -5px auto 0 auto;
+    max-width: 70%;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+.about-text a {
+    color: white;
+}
+
+.benefits {
+    display: flex;
+    background-color: #383838;
+    padding: 50px;
+    text-align: center;
+}
+
+.benefit {
+    margin: 0 30px;
+}
+
+.benefit-icon-wrapper {
+    background-color: #E24E2A;
+    padding: 18px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.benefit-icon-wrapper i {
+    font-size: 48px;
+    color: white;
+}
+
+.benefit-title {
+    color: white;
+    border-bottom: 1px solid #7b7676;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.benefit-text {
+    color: #7b7676;
+    font-size: 9px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.cta-section-subtitle {
+    margin-top: 0;
+    color: #7b7676;
+}
+
+.cta-section-title {
+    margin-bottom: 0;
+    color: #383838;
+}
+
+.btn {
+    background-color: #189772;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    padding: 12px 18px;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.info {
+    background-color: #383838;
+    padding: 80px 0;
+}
+
+.info-content-wrapper {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.info-item-title {
+    font-size: 16px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.info-item-text {
+    color: #7b7676;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* FOOTER PART */
+
+footer {
+    background-color: #1B9772;
+    color: #58B399;
+    padding: 100px;
+    text-align: center;
+}
+
+footer a {
+    color: #B0D1B3;
+    text-decoration: none;
+}
