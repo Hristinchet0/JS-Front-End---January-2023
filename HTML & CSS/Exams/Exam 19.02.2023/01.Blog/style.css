@@ -1,0 +1,84 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Please, check my work on resolution 1366x768*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+article {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6e0b5;
+}
+
+
+.card-container {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    margin: 80px;
+
+}
+
+.card {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #66545e;
+    border-radius: 15px;
+    box-shadow: -21px -12px 64px 27px rgba(148, 138, 138, 0.65);
+    -webkit-box-shadow: -21px -12px 64px 27px rgba(148, 138, 138, 0.65);
+    -moz-box-shadow: -21px -12px 64px 27px rgba(148, 138, 138, 0.65);
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 1.5;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+nav {
+    width: 30%;
+    align-self: flex-start;
+    margin: top 55px;
+    font-weight: 600;
+}
+
+.nav-item a {
+    color: #786366;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+nav h2 {
+    font-size: 2.5rem;
+    padding-left: 0;
+    color: #786366;
+    margin-top: 67px;
+}
+
+.nav-item a i {
+    font-size: 30px;
+    padding-bottom: 22px;
+    margin-right: 15px;
+}

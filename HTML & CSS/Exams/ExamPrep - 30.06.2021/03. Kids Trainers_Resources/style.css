@@ -1,0 +1,220 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p,
+a,
+span {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  background: #00c1ad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 90px;
+}
+
+.nav-logo {
+  width: 150px;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+.nav-list-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item {
+  margin: 0 12px;
+  list-style: none;
+}
+
+.nav-list-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.header-trainers {
+  background: #ffb200;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.header-trainers-title {
+  font-size: 30px;
+}
+
+.header-trainers-text {
+  max-width: 40%;
+  margin: 20px auto;
+}
+
+.main-trainers {
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.main-trainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-trainer:nth-child(1) {
+  margin-right: 30px;
+}
+
+.main-trainer-img {
+  margin-right: 30px;
+  min-width: 180px;
+}
+
+.main-trainer-img img {
+  width: 100%;
+  border-radius: 50%;
+  border: 6px solid #00c1ad;
+}
+
+.main-trainer-content-title {
+  color: #00c1ad;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.main-trainer-content-job {
+  color: lightgray;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.main-trainer-content-text {
+  color: grey;
+  line-height: 22px;
+}
+
+.all-trainers {
+  padding: 100px 80px 40px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.all-trainers .main-trainer-img {
+  margin-right: 0;
+}
+
+.all-trainers .main-trainer-img img {
+  object-fit: cover;
+  width: 192px;
+  height: 192px;
+}
+
+.all-trainers-trainer {
+  margin: 0 15px;
+}
+
+.all-trainers-content {
+  margin-top: 20px;
+}
+
+.kids-team {
+  background: #47bafe;
+  padding: 100px 200px;
+  text-align: center;
+  color: white;
+  border-top: 8px solid #b4e2ff;
+}
+
+.kids-team-title {
+  font-size: 30px;
+}
+
+.kids-team-subtitle {
+  max-width: 50%;
+  margin: 0 auto 30px auto;
+}
+
+.kids-team-form input {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  background: transparent;
+}
+
+.kids-team-form label {
+    margin-right: 14px;
+}
+
+.kids-team-form input::placeholder {
+  color: white;
+}
+
+.kids-team-form .submit-btn {
+  background: #ff8b00;
+  color: white;
+  border-radius: 20px;
+  margin-left: 30px;
+  box-shadow: 0px 0px 1px 1px grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding: 12px 26px;
+}
+
+footer {
+  background: #565656;
+  border-top: 8px solid #919191;
+  padding: 10px 80px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col-list {
+  padding-left: 0;
+}
+
+.footer-col-list li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.footer-col-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .social-media {
+  display: flex;
+}
+
+footer .social-media i {
+  font-size: 25px;
+}
+
+footer .social-media i:nth-child(1) {
+  margin-right: 12px;
+}

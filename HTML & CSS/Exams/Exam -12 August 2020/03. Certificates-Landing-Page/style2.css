@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #526171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px -1px #000000;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    background: white;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 12px;
+    padding: 25px 0;
+    border-top: 5px solid transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4F5C6B;
+}
+
+.current {
+    border-top: 5px solid #42ABF8;
+}
+
+.logo-wrapper {
+    max-width: 180px;
+    padding: 0 20px;
+}
+
+.logo-wrapper img {
+    width: 70%;
+}
+
+.profile {
+    background: #42ABF8;
+    border-radius: 50%;
+    padding: 8px 11px;
+    max-height: 24px;
+    position: relative;
+    top: 15px;
+    left: -9px;
+    box-shadow: 1px 1px 5px -1px #68addc;
+}
+
+.profile a {
+    color: white;
+}
+
+.certificate-info {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)),
+        url(./images/hero-certificates.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    padding: 15% 12% 5% 12%;
+    top: -77px;
+    z-index: -1;
+}
+
+.certificates-info-content div {
+    background: #29394B;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.certificates-info-content>p {
+    font-style: italic;
+    color: grb(93 88 88);
+    position: absolute;
+}
+
+.certificates-info-content h3 {
+    margin-top: 0;
+}
+
+.certificate-info-images {
+    display: flex;
+    align-items: flex-end;
+}
+
+.diploma {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.diploma h3 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.diploma-content {
+    background: #F4F5F7;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.diploma-content p {
+    padding: 0;
+    margin: 0;
+}
+
+.apply {
+    background:
+        linear-gradient(rgba(73, 73, 90, .5), rgba(73, 73, 90, .7)),
+        url(./images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 33px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.apply h3 {
+    font-size: 24px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.bth:hover {
+    cursor: pointer;
+}
+
+.btn-light {
+    background: white;
+    color: #42ABF8;
+    border: 1px solid white;
+}
+
+.separator {
+    display: inline-block;
+    height: 37px;
+    width: 1px;
+    position: relative;
+    left: -13px;
+    top: 12px;
+    background-color: white;
+}
+
+.btn-outline {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #3e4c5d;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 30px auto 0 auto;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    margin: 10px;
+    list-style: none;
+    font-size: 15px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #3e4c5d;
+}
+
+footer li i {
+    color: #3e4c5d;
+}
+
+.logo-and-copyrught-wrapper {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+
+.copyright {
+    color: lightgrey;
+    font-size: 13px;
+}
+
+footer .logo-wrapper {
+    max-width: 160px;
+    padding: 18px;
+}
+
+footer .logo-wrapper img {
+    width: 100%;
+}

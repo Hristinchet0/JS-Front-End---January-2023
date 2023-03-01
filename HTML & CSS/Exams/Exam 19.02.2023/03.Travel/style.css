@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+
+/*Pleace check my work on resolution 1366/768*/
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 12px;
+    padding: 25px 0;
+    border-top: 5px solid transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.explore_places button{
+    border-radius: 20px;
+    background: #370511;
+    color: white;
+    border: none;
+}
+
+/*******************************/
+
+.book {
+    display: flex;
+    flex-direction: column;        
+    background: url(./images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    padding: 29% 12% 12% 12%;
+    top: -77px;
+    z-index: -1;
+}
+
+.book h1 {
+    font-size: 35px;
+}
+
+.description {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.other {
+    font-size: 12px;
+}
+
+.explore_homes {
+    border-radius: 20px;
+    background: #370511;
+    color: white;
+    border: none;
+    width: 160px;
+    margin-top: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.article_text{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.article{
+    background-color: white;
+    display: block;
+    width: 13em;
+    height: 18em;
+    margin: 22px 25px 10px 10px;
+}
+
+.article:hover{
+    background-color: rgba(155, 15, 15, 0.11); 
+    color: white;
+}
+
+.article p {
+    font-size: 10px;
+}
+
+.article_image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0px;
+}
+
+
+.image{
+    width: 100%;
+    height: 70%;
+}
+
+.row_articles{
+    display: flex;
+    justify-content: center;
+}
+
+.main-section-places ul li {
+    margin-bottom: 53px;
+}
+
+.button button{
+    margin-left: 25px;
+    font-size: 11px;
+    border-radius: 27px;
+    background: white;
+    width: 144px;
+    height: 36px;
+    margin-top: 23px;
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    margin-top: 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ 
+.footer-container-info h1 {
+    margin-top: 48px;
+    font-size: 30px;
+}
+
+.footer-container-info p {
+    margin-bottom: 10px;
+}
+
+
+ 
+.footer-container-info .follow {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.footer-container-info i {
+    margin: 5px;
+    font-size: 20px;
+}
